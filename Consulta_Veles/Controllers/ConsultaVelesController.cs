@@ -29,9 +29,9 @@ namespace Consulta_Veles.Controllers
 
             objToken = new Models.LoginVeles()
             {
-                usuario = "cliente_20_r",
-                senha = "nr9d9CEUfv",
-                cliente = "TMKT"
+                usuario = "",
+                senha = "",
+                cliente = ""
 
             };
             string ObjLogin = JsonConvert.SerializeObject(objToken);
